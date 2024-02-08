@@ -1,1 +1,2 @@
-alert("Hellooo, Nurse!!!");
+// alert("Hellooo, Nurse!!!");
+window.alert("Rah, chah, Rahchahah");
