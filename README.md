@@ -1,2 +1,3 @@
-# JavaScript_Projects
-All projects created within The Tech Academy bootcamp, using JavaScript.
+# JavaScript_Projects'
+Within this repo, I will store all projects created while learning from The Tech Academy
+bootcamp, in which JavaScript will be used.'
