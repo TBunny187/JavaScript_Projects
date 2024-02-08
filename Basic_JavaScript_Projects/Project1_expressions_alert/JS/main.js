@@ -19,3 +19,10 @@
 
 // let var1 = "this", var2 = "that", var3 = "this and that";    // Create multiple variables, and give them values, using a single 'let' (also 'var')
 // document.write(var3);                                        // Create a line of text on the page, using one of the variables from 'var1' to 'var3'.
+
+let Sent1 = "This is the beginning of the string";  // Create a variable containing the beginning of a string
+let Sent2 = " and this is the end of the string";   // Create a variable containing the ending of a string
+
+let sendAll = Sent1 + Sent2;                        // Create a variable containing a concatenation of Sent1 and Sent2
+
+document.write(sendAll);                            // Create a line of text on the page, using the variable 'sendAll'.
