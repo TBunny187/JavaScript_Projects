@@ -1,4 +1,3 @@
 function mathFunc() {
-    let operation = 2 * 20;
-    document.getElementById('Math').innerHTML = operation;
+    document.getElementById('Math').innerHTML = 2 * 20;
 };
