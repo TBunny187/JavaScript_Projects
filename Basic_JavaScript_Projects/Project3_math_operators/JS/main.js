@@ -14,3 +14,8 @@ function multops(element) {
     let ans = 10 / 2 + 10 * 5;
     element.innerHTML = "10 / 2 + 10 * 5 = " + ans;
 };
+
+function modFunc(element) {
+    let mod = 25 % 6;
+    element.innerHTML = "25 % 6 = " + mod;
+};
