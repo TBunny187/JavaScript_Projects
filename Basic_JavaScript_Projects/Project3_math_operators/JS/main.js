@@ -4,4 +4,8 @@ function mathFunc(element) {
 
 function subFunc(element) {
     element.innerHTML = 3 - 1;
-}
+};
+
+function divFunc(element) {
+    element.innerHTML = "10 / 2 = " + 10 / 2;
+};
