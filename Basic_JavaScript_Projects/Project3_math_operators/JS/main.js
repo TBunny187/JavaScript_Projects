@@ -19,3 +19,8 @@ function modFunc(element) {
     let mod = 25 % 6;
     element.innerHTML = "25 % 6 = " + mod;
 };
+
+function negFunc(element) {
+    let neg = 25;
+    element.innerHTML = "25 negated is " + -neg;
+};
