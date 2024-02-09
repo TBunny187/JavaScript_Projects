@@ -1,3 +1,7 @@
-function mathFunc() {
-    document.getElementById('Math').innerHTML = 2 * 20;
+function mathFunc(element) {
+    element.innerHTML = 2 * 20;
 };
+
+function subFunc(element) {
+    element.innerHTML = 3 - 1;
+}
