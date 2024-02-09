@@ -8,3 +8,9 @@ function func1() {
 function func2() {
     document.getElementById('text').innerHTML = out;
 };
+
+function func3() {
+    let sentence = "I'm learning a lot";
+    sentence += " from this bootcamp!";
+    document.getElementById('concatenate').innerHTML = sentence;
+}
