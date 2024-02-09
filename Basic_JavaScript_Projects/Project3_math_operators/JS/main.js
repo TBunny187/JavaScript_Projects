@@ -9,3 +9,8 @@ function subFunc(element) {
 function divFunc(element) {
     element.innerHTML = "10 / 2 = " + 10 / 2;
 };
+
+function multops(element) {
+    let ans = 10 / 2 + 10 * 5;
+    element.innerHTML = "10 / 2 + 10 * 5 = " + ans;
+};
