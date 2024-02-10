@@ -47,3 +47,17 @@ function dispTrueBool(element) {
 function dispFalseBool(element) {
     element.innerHTML = 10 < 5;
 };
+
+// Create console.log elements
+console.log(10 * 20);
+console.log(10 > 20);
+
+// Display true from equal comparison
+function equalTrue(element) {
+    element.innerHTML = 10 == 10;
+};
+
+// Display false from equal comparison
+function equalFalse(element) {
+    element.innerHTML = 10 == 11;
+};
