@@ -27,3 +27,13 @@ function dispTrue(element) {
 function dispFalse(element) {
     element.innerHTML = isNaN(5);
 };
+
+// Display Infinity
+function dispInfinity(element) {
+    element.innerHTML = 2E320;
+};
+
+// Display Negative Infinity
+function dispNegInfinity(element) {
+    element.innerHTML = -2E320;
+};
