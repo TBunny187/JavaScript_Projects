@@ -61,3 +61,21 @@ function equalTrue(element) {
 function equalFalse(element) {
     element.innerHTML = 10 == 11;
 };
+
+// Display true from tripple equals
+function sameAll(element) {
+    element.innerHTML = 10 === 10;
+};
+
+// Display false from tripple equals
+function diffAll(element) {
+    element.innerHTML = 12 === "10";
+};
+
+function sameVal(element) {
+    element.innerHTML = 12 === "12";
+};
+
+function sameType(element) {
+    element.innerHTML = "10" === "12";
+};
