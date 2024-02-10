@@ -12,3 +12,18 @@ function typeNum(element) {
     let x = 12 - "10";
     element.innerHTML = '12 - "10" = ' + x;
 };
+
+// Display NaN
+function dispNan(element) {
+    element.innerHTML = 0 / 0;
+};
+
+// Display true from isNaN()
+function dispTrue(element) {
+    element.innerHTML = isNaN('Not NaN!');
+};
+
+// Display false from isNaN()
+function dispFalse(element) {
+    element.innerHTML = isNaN(5);
+};
