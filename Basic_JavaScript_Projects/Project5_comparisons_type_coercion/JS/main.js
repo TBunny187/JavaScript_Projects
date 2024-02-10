@@ -101,3 +101,8 @@ function orLogicTrue(element) {
 function orLogicFalse(element) {
     element.innerHTML = 2 > 3 || 3 > 3;
 };
+
+// Display false using 'not' operator
+function notTrue(element) {
+    element.innerHTML = !true;
+};
