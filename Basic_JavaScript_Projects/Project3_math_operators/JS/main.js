@@ -1,9 +1,11 @@
 function mathFunc(element) {
-    element.innerHTML = 2 * 20;
+    let x = 2 * 20;
+    element.innerHTML = "2 * 20 = " + x;
 };
 
 function subFunc(element) {
-    element.innerHTML = 3 - 1;
+    let x = 3 - 1;
+    element.innerHTML = "3 - 1 = " + x;
 };
 
 function divFunc(element) {
@@ -24,3 +26,18 @@ function negFunc(element) {
     let neg = 25;
     element.innerHTML = "25 negated is " + -neg;
 };
+
+function addOne(element) {
+    let x = 5;
+    element.innerHTML = "++5 = " + ++x;
+}
+
+function subOne(element) {
+    let x = 9;
+    element.innerHTML = "--9 = " + --x;
+}
+
+function randomNum(element) {
+    let x = Math.trunc(Math.random() * 100);
+    element.innerHTML = "Random num between 0 and 100 = " + x;
+}
