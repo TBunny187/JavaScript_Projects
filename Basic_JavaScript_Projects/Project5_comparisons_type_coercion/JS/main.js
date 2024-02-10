@@ -37,3 +37,13 @@ function dispInfinity(element) {
 function dispNegInfinity(element) {
     element.innerHTML = -2E320;
 };
+
+// Display true from boolean comparison
+function dispTrueBool(element) {
+    element.innerHTML = 10 > 5;
+};
+
+// Display false from boolean comparison
+function dispFalseBool(element) {
+    element.innerHTML = 10 < 5;
+};
