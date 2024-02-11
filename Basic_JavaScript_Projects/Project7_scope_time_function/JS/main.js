@@ -28,10 +28,16 @@ function timeCheck() {
     };
 };
 
+// Display greeting based on age
 function checkAge() {
+    
+    // Get value of age entered by user
     let age = document.getElementById('age').value;
+
+    // Create variable to display greeting
     let greet = document.getElementById('ageCheck');
 
+    // Check age, and give customized greeting
     if (age < 10) {
         greet.innerHTML = "Do your parents know you're using the internet?";
     } else if (age < 18) {
