@@ -27,3 +27,13 @@ function toUpper() {
 
     print.innerHTML = val.toUpperCase();
 };
+
+// Take value of input, search first paragraph for that value, print to paragraph
+function search() {
+    let strSearch = document.getElementById('strSearch').innerHTML;
+    let val = document.getElementById('searchStr').value;
+    let print = document.getElementById('strSearchPrint');
+
+    let result = strSearch.search(val);
+    print.innerHTML = result;
+};
