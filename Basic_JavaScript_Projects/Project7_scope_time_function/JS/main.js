@@ -25,5 +25,18 @@ function timeCheck() {
         greet.innerHTML = 'Good Afternoon!';
     } else {
         greet.innerHTML = 'Good Evening!';
-    }
-}
+    };
+};
+
+function checkAge() {
+    let age = document.getElementById('age').value;
+    let greet = document.getElementById('ageCheck');
+
+    if (age < 10) {
+        greet.innerHTML = "Do your parents know you're using the internet?";
+    } else if (age < 18) {
+        greet.innerHTML = "You're not quite old enough to be on here, come back in a few years";
+    } else {
+        greet.innerHTML = "Welcome to my site, enjoy your stay!";
+    };
+};
