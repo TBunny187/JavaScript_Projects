@@ -45,3 +45,12 @@ function numToStr() {
 
     print.innerHTML = val.toString();
 };
+
+// Take value of really long number input, shorten to 5 numbers
+function numPrecision() {
+    let print = document.getElementById('shortNum');
+    let val = Number(document.getElementById('longNum').value);
+    let newVal = val.toPrecision(5);
+
+    print.innerHTML = newVal;
+};
