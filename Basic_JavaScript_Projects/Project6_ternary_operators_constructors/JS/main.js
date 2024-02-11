@@ -27,4 +27,15 @@ function objFunc() {
     document.getElementById("New_and_This").innerHTML = 
     'Emily drives a ' + Emily.Vehicle_Color + '-colored ' + Emily.Vehicle_Model +
     ' manufactured in ' + Emily.Vehicle_Year;
-}
+};
+
+function nestedFunc() {
+    document.getElementById('Nested_Function').innerHTML = nestFunc();
+    function nestFunc() {
+        let str = 'This is inside a nested function!';
+        return str;
+    };
+};
+
+let obj = document.getElementById('Nested_Function');
+obj.addEventListener('load', nestedFunc());
