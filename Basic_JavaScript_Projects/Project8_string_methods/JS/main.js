@@ -54,3 +54,19 @@ function numPrecision() {
 
     print.innerHTML = newVal;
 };
+
+// Take value of input, use toFixed() on it
+function numToFixed() {
+    let print = document.getElementById('fixedNum');
+    let val = Number(document.getElementById('firstNum').value);
+
+    print.innerHTML = val.toFixed(3);
+};
+
+// Take value of input, change to primitive value
+function valueOfNum() {
+    let print = document.getElementById('numValueOf');
+    let val = document.getElementById('valueOfNum').value;
+
+    print.innerHTML = val.valueOf();
+};
