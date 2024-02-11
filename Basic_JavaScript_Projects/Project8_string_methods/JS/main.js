@@ -37,3 +37,11 @@ function search() {
     let result = strSearch.search(val);
     print.innerHTML = result;
 };
+
+// Take value of input, change value to string
+function numToStr() {
+    let print = document.getElementById('strNum');
+    let val = document.getElementById('numToStr').value;
+
+    print.innerHTML = val.toString();
+};
