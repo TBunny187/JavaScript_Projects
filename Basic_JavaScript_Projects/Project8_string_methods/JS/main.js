@@ -9,3 +9,12 @@ function concatStrs() {
     
     concatStr.innerHTML = one.concat(two, three, four);
 };
+
+function sliceMethod() {
+    let sliceMethod = document.getElementById('sliceMethod');
+
+    let sliceStr = 'This string will be sliced.';
+    let slicedStr = sliceStr.slice(5, 11);
+
+    sliceMethod.innerHTML = slicedStr;
+}
