@@ -1,6 +1,8 @@
+// Create countdown function
 function countdown() {
-    let seconds = document.getElementById('seconds').value;
+    let seconds = Number(document.getElementById('seconds').value);
 
+    // Add nested function for 'tick' of seconds
     function tick() {
         let timer = document.getElementById('timer');
         seconds -=1 ;
@@ -12,5 +14,7 @@ function countdown() {
             timer.innerHTML = "";
         };
     };
+
+    // Call 'tick' function from outer function
     tick();
 };
