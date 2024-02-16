@@ -7,3 +7,12 @@ function callLoop() {
         print.innerHTML += count + '<br>';
     };
 };
+
+let strLength = document.getElementById('strLength').value;
+let printLength = document.getElementById('printLength');
+
+function strLen() {
+    let strLength = document.getElementById('strLength').value;
+    let printLength = document.getElementById('printLength');
+    printLength.innerHTML = strLength.length;
+};
