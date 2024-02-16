@@ -16,3 +16,12 @@ function strLen() {
     let printLength = document.getElementById('printLength');
     printLength.innerHTML = strLength.length;
 };
+
+function forLoop() {
+    let printLoop = document.getElementById('evenNumbers');
+    for (let i = 1; i < 15; i++) {
+        if (i % 2 === 0) {
+            printLoop.innerHTML += i + '<br>';
+        };
+    };
+};
