@@ -25,3 +25,10 @@ function forLoop() {
         };
     };
 };
+
+function arrayFunction() {
+    let arr = ["arr1", "arr2", "arr3"];
+    let print = document.getElementById('array');
+    print.innerHTML = arr;
+    print.innerHTML += " " + arr[1];
+};
