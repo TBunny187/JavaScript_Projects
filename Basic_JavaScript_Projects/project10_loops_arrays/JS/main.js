@@ -36,13 +36,17 @@ function arrayFunction() {
 const Birthdays = {
     "Sean": {Month: "October", Day: 7},
     "Kelly": {Month: "October", Day: 12},
+
+    printOut: function(name) {
+        return this[name].Month + " " + this[name].Day;
+    }
 };
 
 function constantFunction() {
     let name = document.getElementById('name').value;
     let print = document.getElementById('constant');
 
-    print.innerHTML = Birthdays[name].Month + " " + Birthdays[name].Day;
+    print.innerHTML = Birthdays.printOut(name);
 };
 
 function addBirthday() {
