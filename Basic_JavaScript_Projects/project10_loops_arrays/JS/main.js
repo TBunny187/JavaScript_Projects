@@ -32,3 +32,23 @@ function arrayFunction() {
     print.innerHTML = arr;
     print.innerHTML += " " + arr[1];
 };
+
+const Birthdays = {
+    "Sean": {Month: "October", Day: 7},
+    "Kelly": {Month: "October", Day: 12},
+};
+
+function constantFunction() {
+    let name = document.getElementById('name').value;
+    let print = document.getElementById('constant');
+
+    print.innerHTML = Birthdays[name].Month + " " + Birthdays[name].Day;
+};
+
+function addBirthday() {
+    let newName = document.getElementById('newName').value;
+    let newMonth = document.getElementById('newMonth').value;
+    let newDay = document.getElementById('newDay').value;
+
+    Birthdays[newName] = {Month: newMonth, Day: newDay};
+}
