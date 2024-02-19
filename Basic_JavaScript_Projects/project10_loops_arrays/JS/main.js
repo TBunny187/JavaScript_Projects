@@ -68,3 +68,15 @@ function printNums() {
 
     print.innerHTML = addNums(firstNum, secondNum);
 };
+
+for (let i = 0; i < 10; i++ ) {
+    if (i === 5) {
+        break;
+    }
+}
+
+for (let i = 0; i< 10; i++) {
+    if (i === 5) {
+        continue;
+    }
+}
