@@ -51,4 +51,16 @@ function addBirthday() {
     let newDay = document.getElementById('newDay').value;
 
     Birthdays[newName] = {Month: newMonth, Day: newDay};
-}
+};
+
+function addNums(num1, num2) {
+    return num1 + num2;
+};
+
+function printNums() {
+    let firstNum = Number(document.getElementById('firstNum').value);
+    let secondNum = Number(document.getElementById('secondNum').value);
+    let print = document.getElementById('addition');
+
+    print.innerHTML = addNums(firstNum, secondNum);
+};
