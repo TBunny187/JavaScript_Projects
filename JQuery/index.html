@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQuery</title>
+    </head>
+
+    <script>
+        // $(document).ready(function() {
+        //     $("html").append(
+        //         "<body>\
+        //             <div id='container'>\
+        //                 <div id='inner'>\
+        //                     <h1>Basic JQuery</h1>\
+        //                     <p id='1'>Paragraph 1</p>\
+        //                     <p id='2'>Paragraph 2</p>\
+        //                     <p id='3'>Paragraph 3</p>\
+        //                 </div>\
+        //             </div>\
+        //         </body>"
+        //     );
+        //     $('#inner').css({'background-color': 'red'});
+        //     $('#3').click(function() {
+        //         $('h1').hide();
+        //     });
+        // });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>JQuery Event</h1>\
+                            <p id='1'>Para1</p>\
+                            <p id='2'>Para2</p>\
+                            <p id='3'>Para3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            $('p#2').click(function() {
+                $('#1').html('You clicked the second Paragraph!!!');
+                $('#1').fadeIn(500);
+                // document.getElementById('1').innerHTML = 'You clicked on the second paragraph!';
+            });
+            
+            $('p#3').on('click', function() {
+                $('p#1').fadeOut(1000);
+            });
+        });
+    </script>
+</html>
